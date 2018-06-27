@@ -1,0 +1,44 @@
+h2{
+  font-weight: 700;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1%;
+  margin-left: 45%;
+  margin-right: 65%;
+  background-color: gray;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=50);
+}
+body{
+  background-image: url(https://arborcrowd-staging.imgix.net/wp-content/uploads/2018/02/GettyImages-635942020.jpg?fit=max&w=1200&auto=format,compress&q=80);
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  background-position: 48%;
+}
+img{
+  border-radius: 100%;
+	border: 2px solid black;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+p{
+  text-indent: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin: 1%;
+  background-color: gray;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=50);
+}
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin: 1%;
+  margin-right: 90%;
+  background-color: gray;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=50);
+}

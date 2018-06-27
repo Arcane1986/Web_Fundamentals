@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="/add" method="post">
+  <tr>
+  <td><label for="user-name">Username: </label></td>
+    <td><input type="text" name="user-name" value={{ username }}> <span>{{ errors.error2 }} {{ errors.error4 }}</span></td>
+  </tr>
+  <tr>
+    <td><label for="p-word">Password: </label></td>
+      <td><input type="password" name="p-word"> <span>{{ errors.error3 }} {{ errors.error5 }}</span></td> 
+  </tr>
+  <tr>
+  <td><label for="verified-password">Verify Password: </label></td>
+    <td><input type="password" name="verified-password"> <span>{{ errors.error6 }}</span></td>
+  </tr>
+  <tr>
+  <td><label for="e-mail">Email: </label></td>
+    <td><input type="email" name="e-mail" value = {{ email }}> <span>{{ errors.error7 }}</span></td>
+  </tr>
+  <tr>
+  <td><input type="submit" value="Create"></td>
+  <td><span>{{ errors.error1 }}</span></td>
+  </tr>
+</form>
+{% endblock %}

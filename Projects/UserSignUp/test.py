@@ -1,0 +1,2 @@
+strg = []
+print(len(strg))
