@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="/encrypt" method="post">
+  <label name="rot">Char Rotate</label>
+    <input type="number" name="rot" value="0">
+    <textarea name="text">{{ secret_text }}</textarea>
+    <input type="submit" value="Jumble!">
+</form>
+{% endblock %}
